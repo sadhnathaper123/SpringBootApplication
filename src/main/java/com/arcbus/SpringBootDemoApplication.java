@@ -33,9 +33,11 @@ public class SpringBootDemoApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDemoApplication.class, args);
-		LOGGER.info("Info level log message *********");
-        LOGGER.debug("Debug level log message *********");
-        LOGGER.error("Error level log message *********");
+		/*
+		 * LOGGER.info("Info level log message *********");
+		 * LOGGER.debug("Debug level log message *********");
+		 * LOGGER.error("Error level log message *********");
+		 */
 	}
 
 }

@@ -13,11 +13,11 @@
 		<form:form action="/addNewEmployee" method="post" modelAttribute="emp">
 			<p>
 				<label>Enter Employee Id</label>
-				<form:input type="text" path="empId" placeholder="Employee ID in numeric." size="30" pattern="/^[0-9]*$" />
+				<form:input type="text" path="empId" placeholder="Employee ID in numeric." size="30"/>
 			</p>
 			<p>
 				<label>Enter Name</label>
-				<form:input type="text" path="empName" placeholder="Enter valid Employee name." size="30" pattern="/^[A-Za-z]+$/" />
+				<form:input type="text" path="empName" placeholder="Enter valid Employee name." size="30"/>
 			</p>
 			<input type="SUBMIT" value="Submit" />
 		</form:form>
